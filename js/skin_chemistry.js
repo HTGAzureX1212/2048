@@ -46,6 +46,24 @@ window.requestAnimationFrame(function () {
     case 4096:
       inner.textContent = "Mg";
       break;
+    case 8192:
+      inner.textContent = "Al";
+      break;
+    case 16384:
+      inner.textContent = "Si";
+      break;
+    case 32768:
+      inner.textContent = "P";
+      break;
+    case 65536:
+      inner.textContent = "S";
+      break;
+    case 131072:
+      inner.textContent = "Cl";
+      break;
+    case 262144:
+      inner.textContent = "Ar";
+      break;
     }
     if (tile.previousPosition) {
       window.requestAnimationFrame(function () {
