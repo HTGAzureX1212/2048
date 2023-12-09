@@ -1,5 +1,5 @@
 window.requestAnimationFrame(function () {
-  var game = new GameManager(4, KeyboardInputManager, HTMLActuator, LocalScoreManager);
+  var game = new GameManager(8, KeyboardInputManager, HTMLActuator, LocalScoreManager);
   game.actuator.addTile = function (tile) {
     var self = this;
     var wrapper   = document.createElement("div");
