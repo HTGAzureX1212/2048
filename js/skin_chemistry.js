@@ -64,6 +64,72 @@ window.requestAnimationFrame(function () {
     case 262144:
       inner.textContent = "Ar";
       break;
+    case 524288:
+      inner.textContent = "K";
+      break;
+    case 1048576:
+      inner.textContent = "Ca";
+      break;
+    case 2079152:
+      inner.textContent = "Sc";
+      break;
+    case 4194304:
+      inner.textContent = "Ti";
+      break;
+    case 8388608:
+      inner.textContent = "V";
+      break;
+    case 16777216:
+      inner.textContent = "Cr";
+      break;
+    case 33554432:
+      inner.textContent = "Mn";
+      break;
+    case 67108864:
+      inner.textContent = "Fe";
+      break;
+    case 134217728:
+      inner.textContent = "Co";
+      break;
+    case 268435456:
+      inner.textContent = "Ni";
+      break;
+    case 536870912:
+      inner.textContent = "Cu";
+      break;
+    case 1073741824:
+      inner.textContent = "Zn";
+      break;
+    case 2147483648:
+      inner.textContent = "Ga";
+      break;
+    case 4294967296:
+      inner.textContent = "Ge";
+      break;
+    case 8589934592:
+      inner.textContent = "As";
+      break;
+    case 17179869184:
+      inner.textContent = "Se";
+      break;
+    case 34359738368:
+      inner.textContent = "Br";
+      break;
+    case 68719476736:
+      inner.textContent = "Kr";
+      break;
+    case 137438953472:
+      inner.textContent = "Rb";
+      break;
+    case 274877906944:
+      inner.textContent = "Sr";
+      break;
+    case 549755813888:
+      inner.textContent = "Y";
+      break;
+    case 1099511627776:
+      inner.textContent = "Zr";
+      break;
     }
     if (tile.previousPosition) {
       window.requestAnimationFrame(function () {
